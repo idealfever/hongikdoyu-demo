@@ -1,0 +1,489 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@media all and (min-width: 668px) {
+	body {
+		margin-top: 0px;
+		padding: 0;
+		font-family: 'Noto Sans KR', '맑은 고딕', 'sans-serif';
+    }
+
+    .br1{
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	.br2{
+		display: block;
+		margin-bottom: 1.5em;
+	}
+
+	#container {
+		margin-top: 30px;
+	}
+	
+	#container p {
+		margin: 0;
+		font-weight: 600;
+		font-size: 1.1rem;
+	}
+
+	#container a{
+		text-decoration: none;
+		color: black;
+	}
+
+	#container p a:hover{
+        text-decoration: underline;
+    }
+
+	#grid1 {
+		position: absolute;
+		top: 30px;
+		left: 4%;
+	}
+
+	#grid2 {
+		position: absolute;
+		top: 30px;
+		left: 47%;
+	}
+
+	#grid3 {
+		position: absolute;
+		top: 30px;
+		left: 78.25%;
+	}
+
+	#grid4 {
+		position: absolute;
+		right: 2%;
+		top: 28px;
+	}
+
+	.logo{
+		width: 2.5rem;
+	}
+
+	#grid5{
+		position: fixed;
+		right: 2%;
+		top: 500px;
+	}
+
+	#grid5 .icon img{
+		width: 27px;
+		padding-bottom: 4px;
+	}
+    
+    .poster-container{
+		width: max-content;
+		margin: auto;
+	}
+
+	.poster{
+		width: max-content;
+		margin: auto;
+	}
+
+	.poster img{
+		margin-top: 200px;
+		margin-bottom: 70px;
+		width: 400px;
+		box-shadow: 0px 0px 10px rgba(112, 185, 158, .3);
+	}
+
+	.line-poster {
+		width: 50px;
+		height: 6px;
+		margin-bottom: 15px;
+		background-color: #73BBA0;
+		border-radius: 200px;
+	}
+
+	.poster-text p {
+		font-size: 1rem;
+		font-weight: 400;
+		text-align: left;
+		line-height: 1.7;
+		width: 480px;
+	}
+
+	#greeting{
+		margin-top: 110px;
+		width: 100%;
+		display: grid;
+		grid-template-columns: minmax(500px, 1fr) minmax(500px, 1fr);
+		grid-auto-rows: min-content;
+		margin-bottom: 110px;
+	}
+
+	.line-greeting{
+		width: 40px;
+		height: 5px;
+		border-radius: 200px;
+		background: white;
+	}
+
+	#greeting h3 {
+		width: max-content;
+		margin: auto;
+		margin-top: 50px;
+		color: white;
+		font-size: 1.1rem;
+		font-weight: 500;
+	}
+
+	#greeting p {
+		display: block;
+		margin-top: 18px;
+		color: white;
+		font-size: 0.9rem;
+		font-weight: 400;
+		text-align: left;
+		line-height: 1.9;
+		padding-bottom: 47px;
+	}
+
+	.crew{
+		background-color: #73BBA0;
+		width: 100%;
+	}
+
+	.crew img{
+		display: block;
+		height: 375px;
+		margin: auto;
+		margin-top: 40px;
+	}
+
+	.crew-text-container{
+		min-width: 400px;
+		max-width: 60%;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.professor{
+		background-color: #8D7D51;
+	}
+
+	.professor img{
+		display: block;
+		height: 375px;
+		margin: auto;
+		margin-top: 40px;
+	}	
+
+	.professor-text-container{
+		min-width: 400px;
+		max-width: 60%;
+		margin: auto;
+		margin-top: 50px;
+    }
+    
+
+    .footer {
+		margin-top: 180px;
+	}
+
+	.sponser {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	.sponser-logo{
+		float: left;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.aviemuah{
+		width: 100px;
+		padding-top: 5px;
+	}
+
+	.hangaram{
+		width: 65px;
+	}
+
+	.bedameun{
+		width: 110px;
+		padding-top: 10px;
+		padding-left: 3px;
+	}
+
+	.copyright {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 2px;
+		font-size: 0.8rem;
+		font-weight: 500;
+		text-align: center;
+		color: #aeaeae;
+	}
+
+	.designer {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 30px;
+		font-size: 0.7rem;
+		font-weight: 400;
+		text-align: center;
+		color: #aeaeae;
+	}
+}
+
+@media all and (max-width: 667px) {
+
+	body {
+		margin-top: 0px;
+		padding: 0;
+		font-family: 'Noto Sans KR', '맑은 고딕', 'sans-serif';
+    }
+    
+    .br1{
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	.br2{
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	#container p {
+		margin: 0;
+		font-weight: 700;
+		font-size: 0.77rem;
+    }
+    
+    #container p a{
+        text-decoration: none;
+        color: black;
+    }
+
+	#grid1 {
+		position: absolute;
+		top: 20px;
+		left: 5.6%;
+	}
+
+	#grid2 {
+		position: absolute;
+		top: 43px;
+		left: 64.3%;
+	}
+
+	#grid3 {
+		position: absolute;
+		top: 20px;
+		left: 64.3%;
+	}
+
+	#grid4 {
+		position: absolute;
+		right: 3%;
+		top: 22px;
+	}
+
+	.logo{
+		width: 2.05rem;
+	}
+
+	#grid5{
+		position: fixed;
+		right: 2.2%;
+		top: 505px;
+	}
+
+	#grid5 .icon img{
+		width: 24px;
+		padding-bottom: 6px;
+    }
+
+    
+    .poster-container{
+        width: 85%;
+		margin: auto;
+		margin-top: 120px;
+    }
+    
+    .poster{
+		width: max-content;
+		margin: auto;
+	}
+
+	.poster img{
+		margin-bottom: 20px;
+		width: 300px;
+		box-shadow: 0px 0px 10px rgba(112, 185, 158, .3);
+	}
+
+	.line-poster{
+        display: none;
+	}
+
+	.poster-text p{
+		font-size: 0.8rem;
+		font-weight: 500;
+		text-align: left;
+		line-height: 1.85;
+		width: 100%;
+    }
+    
+
+    #greeting{
+		margin-top: 50px;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+    .line-greeting {
+        width: 35px;
+        height: 3px;
+        border-radius: 200px;
+        background: white;
+    }
+
+	.crew{
+		background-color: #73BBA0;
+		width: 100%;
+	}
+
+	.crew h3{
+		width: max-content;
+		margin: auto;
+		padding-top: 20px;
+		color: white;		
+		font-size: 1.2rem;
+		font-weight: 400;
+	}
+
+	.crew img{
+		display: block;
+		width: 100%;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	.crew-text-container{
+		width: 85%;
+		margin: auto;
+		margin-top: 30px;
+	}
+
+	.crew p{
+		display: block;
+		margin-top: 10px;
+		color: white;		
+		font-size: 0.8rem;
+		font-weight: 400;
+		text-align: left;
+		line-height: 1.85;
+		padding-bottom: 40px;
+	}
+
+	.professor{
+        background-color: #8D7D51;
+	}
+
+	.professor h3{
+		width: max-content;
+		margin: auto;
+		padding-top: 20px;
+		color: white;		
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
+
+	.professor img{
+		display: block;
+		width: 85%;
+		margin: auto;
+		margin-top: 20px;
+	}	
+
+	.professor-text-container{
+		width: 85%;
+		margin: auto;
+		margin-top: 30px;
+	}
+
+	.professor p{
+		display: block;
+		margin-top: 10px;
+		color: white;		
+		font-size: 0.8rem;
+		font-weight: 400;
+		text-align: left;
+		line-height: 1.85;
+		padding-bottom: 40px;
+    }
+
+    
+    .footer {
+		margin-top: 80px
+	}
+
+	.sponser {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 6px;
+	}
+
+	.sponser-logo{
+		float: left;
+		margin-right: 6px;
+		margin-left: 6px;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.aviemuah{
+		width: 78px;
+		padding-top: 5px;
+	}
+
+	.hangaram{
+		width: 52px;
+	}
+
+	.bedameun{
+		width: 85px;
+		padding-top: 9.25px;
+		padding-left: 3px;
+	}
+
+	.copyright {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 3px;
+		font-size: 0.6rem;
+		font-weight: 500;
+		text-align: center;
+		color: #aeaeae;
+	}
+
+	.designer {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 30px;
+		font-size: 0.5rem;
+		font-weight: 400;
+		text-align: center;
+		color: #aeaeae;
+	}
+}
+
+    

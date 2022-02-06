@@ -1,0 +1,399 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@media all and (min-width: 668px) {
+	body {
+		margin-top: 0px;
+		padding: 0;
+		font-family: 'Noto Sans KR', '맑은 고딕', 'sans-serif';
+	}
+
+	.br1{
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	.br2{
+		display: block;
+		margin-bottom: 1.5em;
+	}
+
+	#container {
+		margin-top: 30px;
+	}
+	
+	#container p {
+		margin: 0;
+		font-weight: 600;
+		font-size: 1.1rem;
+	}
+
+	#container a{
+		text-decoration: none;
+		color: black;
+	}
+
+	#container p a:hover{
+        text-decoration: underline;
+    }
+
+	#grid1 {
+		position: absolute;
+		top: 30px;
+		left: 4%;
+	}
+
+	#grid2 {
+		position: absolute;
+		top: 30px;
+		left: 47%;
+	}
+
+	#grid3 {
+		position: absolute;
+		top: 30px;
+		left: 78.25%;
+	}
+
+	#grid4 {
+		position: absolute;
+		right: 2%;
+		top: 28px;
+	}
+
+	.logo{
+		width: 2.5rem;
+	}
+
+	#grid5{
+		position: fixed;
+		right: 2%;
+		top: 500px;
+	}
+
+	#grid5 .icon img{
+		width: 27px;
+		padding-bottom: 4px;
+	}
+
+	.banner-web {
+		width: 100%;
+		margin-top: 100px;
+	}
+
+	.banner-mobile {
+		display: none;
+	}
+
+	.participant {
+		width: max-content;
+		margin: auto;
+		margin-top: 100px;
+		font-size: 1.1rem;
+		font-weight: 700;
+	}
+
+	.name-list-line1 {
+		width: 55%;
+		height: 6px;
+		background-color: #73BBA0;
+		border-radius: 200px;
+		margin: auto;
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+
+	.name-list{		
+		display: grid;
+		grid-template-columns: repeat(7, max-content);
+		width: max-content;
+		margin: auto;
+		gap: 10px 30px;
+	}
+
+	.name {
+		font-weight: 500;
+		text-align: center;
+		font-size: 1rem;
+	}
+
+	.name a{
+		text-decoration: none;
+		color: black;
+	}
+
+	.name a:hover{
+		font-weight: 600;
+		color: #73BBA0;
+	}
+
+	.name-list-line2 {
+		width: 55%;
+		height: 6px;
+		background-color: #73BBA0;
+		border-radius: 200px;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	.professors {
+		width: max-content;
+		margin: auto;
+		margin-top: 12px;
+		font-size: 0.9rem;
+		font-weight: 400;
+		color: gray;
+	}
+
+
+	.footer {
+		margin-top: 150px;
+	}
+
+	.sponser {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	.sponser-logo{
+		float: left;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.aviemuah{
+		width: 100px;
+		padding-top: 5px;
+	}
+
+	.hangaram{
+		width: 65px;
+	}
+
+	.bedameun{
+		width: 110px;
+		padding-top: 10px;
+		padding-left: 3px;
+	}
+
+	.copyright {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 2px;
+		font-size: 0.8rem;
+		font-weight: 500;
+		text-align: center;
+		color: #aeaeae;
+	}
+
+	.designer {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 30px;
+		font-size: 0.7rem;
+		font-weight: 400;
+		text-align: center;
+		color: #aeaeae;
+	}
+}
+
+@media all and (max-width: 667px) {
+
+	body {
+		margin-top: 0px;
+		padding: 0;
+		font-family: 'Noto Sans KR', '맑은 고딕', 'sans-serif';
+	}
+
+	.br1{
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	.br2{
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	#container p {
+		margin: 0;
+		font-weight: 700;
+		font-size: 0.77rem;
+    }
+    
+    #container p a{
+        text-decoration: none;
+        color: black;
+    }
+
+	#grid1 {
+		position: absolute;
+		top: 20px;
+		left: 5.6%;
+	}
+
+	#grid2 {
+		position: absolute;
+		top: 43px;
+		left: 64.3%;
+	}
+
+	#grid3 {
+		position: absolute;
+		top: 20px;
+		left: 64.3%;
+	}
+
+	#grid4 {
+		position: absolute;
+		right: 3%;
+		top: 22px;
+	}
+
+	.logo{
+		width: 2.05rem;
+	}
+
+	#grid5{
+		position: fixed;
+		right: 2.2%;
+		top: 520px;
+	}
+
+	#grid5 .icon img{
+		width: 24px;
+		padding-bottom: 6px;
+    }
+	
+
+	.banner-web {
+		display: none;
+	}
+
+	.banner-mobile {
+		display: block;
+		width: 92%;
+		margin: auto;
+		margin-top: 105px;
+	}
+
+
+	.participant {
+		width: max-content;
+		margin: auto;
+		margin-top: 70px;
+		font-size: 1rem;
+		font-weight: 600;
+	}
+
+	.name-list-line1 {
+		width: 100%;
+		height: 4px;
+		background-color: #73BBA0;
+		border-radius: 200px;
+		margin: auto;
+		margin-top: 12px;
+		margin-bottom: 16px;
+	}
+
+	.name-list{		
+		display: grid;
+		grid-template-columns: repeat(4, max-content);
+		width: max-content;
+		margin: auto;
+		gap: 13px 25px;
+	}
+
+	.name {
+		font-weight: 500;
+		text-align: center;
+		font-size: 0.9rem;
+	}
+
+	.name a{
+		text-decoration: none;
+		color: black;
+	}
+
+	.name-list-line2 {
+		width: 100%;
+		height: 4px;
+		background-color: #73BBA0;
+		border-radius: 200px;
+		margin: auto;
+		margin-top: 16px;
+	}
+
+	.professors {
+		width: max-content;
+		margin: auto;
+		margin-top: 8px;
+		font-size: 0.8rem;
+		font-weight: 400;
+		color: gray;
+	}
+
+
+	.footer {
+		margin-top: 80px
+	}
+
+	.sponser {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 6px;
+	}
+
+	.sponser-logo{
+		float: left;
+		margin-right: 6px;
+		margin-left: 6px;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.aviemuah{
+		width: 78px;
+		padding-top: 5px;
+	}
+
+	.hangaram{
+		width: 52px;
+	}
+
+	.bedameun{
+		width: 85px;
+		padding-top: 9.25px;
+		padding-left: 3px;
+	}
+
+	.copyright {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 3px;
+		font-size: 0.6rem;
+		font-weight: 500;
+		text-align: center;
+		color: #aeaeae;
+	}
+
+	.designer {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 30px;
+		font-size: 0.5rem;
+		font-weight: 400;
+		text-align: center;
+		color: #aeaeae;
+	}
+}

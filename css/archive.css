@@ -1,0 +1,334 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@media all and (min-width: 668px) {
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: 'Noto Sans KR', '맑은 고딕', 'sans-serif';
+	}
+
+	#container {
+		margin-top: 30px;
+	}
+	
+	#container p {
+		margin: 0;
+		font-weight: 600;
+		font-size: 1.1rem;
+	}
+
+	#container a{
+		text-decoration: none;
+		color: black;
+	}
+
+	#container p a:hover{
+        text-decoration: underline;
+    }
+
+	#grid1 {
+		position: absolute;
+		top: 30px;
+		left: 4%;
+	}
+
+	#grid2 {
+		position: absolute;
+		top: 30px;
+		left: 47%;
+	}
+
+	#grid3 {
+		position: absolute;
+		top: 30px;
+		left: 78.25%;
+	}
+
+	#grid4 {
+		position: fixed;
+		right: 2%;
+		top: 28px;
+	}
+
+	.logo{
+		width: 2.5rem;
+	}
+
+	#profile {
+		width: 96%;
+		margin: auto; 
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-column-gap: 25px;
+		grid-auto-rows: min-content;
+		margin-top: 150px;
+		z-index: -1;
+	}
+
+	#each-profile {
+		width: 100%;
+	}
+
+	.profile-photo-hover {
+		width: 100%;
+	}
+
+	.profile-photo-hover a:hover {
+		background-size: 1px 1px;
+		-moz-box-shadow:
+		0 0.5px white,
+		0 3px #73BBA0;
+		-webkit-box-shadow:
+		0 0.5px white,
+		0 3px #73BBA0;
+		  box-shadow:
+		0 0.5px white,
+		0 3px #73BBA0;
+	}
+
+	.profile-photo {
+		width: 100%;
+	}
+
+	.profile-name {
+		width: 100%;
+		text-align: center;
+		font-weight: 500;
+		font-size: 0.9rem;
+		margin-top: 6px;
+		margin-bottom: 30px;
+	}
+
+	.profile-name-kor {
+		display: none;
+	}
+
+	.profile-name-eng {
+		display: none;
+	}
+
+	.profile-name a {
+		color: black;
+		text-decoration: none;
+	}
+
+
+	.footer {
+		margin-top: 100px
+	}
+
+	.sponser {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	.sponser-logo{
+		float: left;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.aviemuah{
+		width: 100px;
+		padding-top: 5px;
+	}
+
+	.hangaram{
+		width: 65px;
+	}
+
+	.bedameun{
+		width: 110px;
+		padding-top: 10px;
+		padding-left: 3px;
+	}
+
+	.copyright {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 2px;
+		font-size: 0.8rem;
+		font-weight: 500;
+		text-align: center;
+		color: #aeaeae;
+	}
+
+	.designer {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 30px;
+		font-size: 0.7rem;
+		font-weight: 400;
+		text-align: center;
+		color: #aeaeae;
+	}
+}
+
+@media all and (max-width: 667px) {
+
+	body {
+		margin-top: 0px;
+		padding: 0;
+		font-family: 'Noto Sans KR', '맑은 고딕', 'sans-serif';
+	}
+
+	#container {
+
+	}
+
+	#container p {
+		margin: 0;
+		font-weight: 700;
+		font-size: 0.77rem;
+    }
+    
+    #container p a{
+        text-decoration: none;
+        color: black;
+    }
+
+	#grid1 {
+		position: absolute;
+		top: 20px;
+		left: 5.6%;
+	}
+
+	#grid2 {
+		position: absolute;
+		top: 43px;
+		left: 63.2%;
+	}
+
+	#grid3 {
+		position: absolute;
+		top: 20px;
+		left: 63.2%;
+	}
+
+	#grid3 a {
+		color: black;
+		text-decoration: none;
+	}
+
+	#grid4 {
+		position: fixed;
+		right: 5.6%;
+		top: 22px;
+	}
+
+	.logo{
+		width: 2.05rem;
+	}
+
+	#profile {
+		width: 92.6%;
+		margin: auto; 
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 8px;
+		grid-auto-rows: min-content;
+		margin-top: 120px;
+		z-index: -1;
+	}
+
+	#each-profile {
+		width: 100%;
+	}
+
+	.profile-photo {
+		width: 100%;
+	}
+
+	.profile-name {
+		display: none;
+	}
+
+	.profile-name-kor {
+		width: 100%;
+		text-align: center;
+		font-weight: 500;
+		font-size: 0.7rem;
+	}
+
+	.profile-name-kor a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.profile-name-eng {
+		width: 100%;
+		text-align: center;
+		font-weight: 500;
+		font-size: 0.7rem;
+		margin-bottom: 15px;
+	}
+
+	.profile-name-eng a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.footer {
+		margin-top: 80px
+	}
+
+	.sponser {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 6px;
+	}
+
+	.sponser-logo{
+		float: left;
+		margin-right: 6px;
+		margin-left: 6px;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.aviemuah{
+		width: 78px;
+		padding-top: 5px;
+	}
+
+	.hangaram{
+		width: 52px;
+	}
+
+	.bedameun{
+		width: 85px;
+		padding-top: 9.25px;
+		padding-left: 3px;
+	}
+
+	.copyright {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 3px;
+		font-size: 0.6rem;
+		font-weight: 500;
+		text-align: center;
+		color: #aeaeae;
+	}
+
+	.designer {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 30px;
+		font-size: 0.5rem;
+		font-weight: 400;
+		text-align: center;
+		color: #aeaeae;
+	}
+}

@@ -1,0 +1,583 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@media all and (min-width: 668px) {
+	body {
+		margin-top: 0px;
+		padding: 0;
+		font-family: 'Noto Sans KR', '맑은 고딕', 'sans-serif';
+	}
+
+	#container {
+		margin-top: 30px;
+	}
+	
+	#container p {
+		margin: 0;
+		font-weight: 600;
+		font-size: 1.1rem;
+	}
+
+	#container a{
+		text-decoration: none;
+		color: black;
+	}
+
+	#container p a:hover{
+        text-decoration: underline;
+    }
+
+	#grid1 {
+		position: absolute;
+		top: 30px;
+		left: 4%;
+	}
+
+	#grid2 {
+		position: absolute;
+		top: 30px;
+		left: 47%;
+	}
+
+	#grid3 {
+		position: absolute;
+		top: 30px;
+		left: 78.25%;
+	}
+
+	#grid3 a {
+		color: black;
+		text-decoration: none;
+	}
+
+	#grid4 {
+		position: fixed;
+		right: 2%;
+		top: 28px;
+	}
+
+	.logo{
+		width: 2.5rem;
+	}
+
+    #grid6{
+		position: fixed;
+		left: 80%;
+		top: 197px;
+
+	}
+
+	.name{
+		font-size: 0.9rem;
+		margin-bottom: 20px;
+		font-weight: 500;
+	}
+
+	.contact-container{
+		border-left: 3px solid #73BBA0;
+		padding-left: 10px;
+	}
+
+	.contact{
+		font-size: 0.85rem;
+		font-weight: 500;
+	}
+
+	.address{
+		font-size: 0.8rem;
+		font-weight: 500;
+		padding-top: 10px;
+	}
+
+	.address a{
+		text-decoration: none;
+		color: black;	
+	}
+
+	.address a:hover{
+        text-decoration: underline;
+	}
+
+	.email{
+		float: left;
+	}
+
+	.email img{
+		width: 17px;
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+	
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.instagram{
+		float: left;
+		margin-top: 5px;
+	}
+
+	.instagram img{
+		width: 15px;
+		margin-top: 3.5px;
+		margin-right: 7px;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.guest-book{
+		margin-top: 4px;
+	}
+	
+    .container{
+        width: 50%;
+        margin: auto;
+		margin-top: 180px;
+    }
+
+    .container img{
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+	}
+
+	.numbering{
+		font-size: 0.9rem;
+	}
+
+	.video-wrapper{
+		position: relative;
+		width: 100%;
+		height: 0;
+		overflow: hidden;
+		padding-bottom: 56.26%;
+		margin-top: 40px;
+	}
+
+	.video-wrapper .wrap{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.space-1{
+		height: 10px;
+	}
+
+	.description-container{
+		margin-top: 10px;
+		margin-bottom: 80px;
+	}
+
+	.description-container2{
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+
+	.description-line{
+		height: 1px;
+		background-color: #73BBA0;
+		margin-bottom: 30px;
+	}
+
+	.description-line2{
+		height: 3px;
+		width: 30px;
+		border-radius: 200px;
+		background-color: #73BBA0;
+		margin-bottom: 10px;
+		margin-top: 100px;
+	}
+
+	.left-description{
+		text-align: left;
+	}
+
+	.left-line{
+		width: 50px;
+		height: 6px;
+		background-color: #73BBA0;
+		border-radius: 200px;
+		margin-bottom: 15px;
+		display: none;
+	}
+
+	.work-title{
+		font-size: 0.78rem;
+		font-weight: 500;
+	}
+
+	.work-detail{
+		margin-top: 10px;
+		font-size: 0.6rem;
+		font-weight: 400;
+		line-height: 1.7;
+	}
+
+	.right-description{
+		text-align: left;
+		margin-top: 20px;
+	}
+
+	.right-line{
+		width: 50px;
+		height: 6px;
+		background-color: #73BBA0;
+		border-radius: 200px;
+		margin-bottom: 15px;
+		display: none;
+	}
+
+	.work-description{
+		font-weight: 400;
+		font-size: 0.78rem;
+		line-height: 1.85;
+	}
+
+	.work-description a{
+		text-decoration: none;
+		color: #73BBA0;
+	}
+
+	.description-bottom-container{
+		display: none;
+	}
+
+
+	.footer {
+		margin-top: 200px
+	}
+
+	.sponser {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	.sponser-logo{
+		float: left;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.aviemuah{
+		width: 100px;
+		padding-top: 5px;
+	}
+
+	.hangaram{
+		width: 65px;
+	}
+
+	.bedameun{
+		width: 110px;
+		padding-top: 10px;
+		padding-left: 3px;
+	}
+
+	.copyright {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 2px;
+		font-size: 0.8rem;
+		font-weight: 500;
+		text-align: center;
+		color: #aeaeae;
+	}
+
+	.designer {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 30px;
+		font-size: 0.7rem;
+		font-weight: 400;
+		text-align: center;
+		color: #aeaeae;
+	}
+}	
+
+@media all and (max-width: 667px) {
+
+	body {
+		margin-top: 0px;
+		padding: 0;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-family: 'Noto Sans KR', '맑은 고딕', 'sans-serif';
+	}
+
+	#container p {
+		margin: 0;
+		font-weight: 700;
+		font-size: 0.77rem;
+    }
+    
+    #container p a{
+        text-decoration: none;
+        color: black;
+    }
+
+	#grid1 {
+		position: absolute;
+		top: 20px;
+		left: 5.6%;
+	}
+
+	#grid2 {
+		position: absolute;
+		top: 43px;
+		left: 64.3%;
+	}
+
+	#grid3 {
+		position: absolute;
+		top: 20px;
+		left: 64.3%;
+	}
+
+	#grid3 a {
+		color: black;
+		text-decoration: none;
+	}
+
+	#grid4 {
+		position: fixed;
+		right: 3%;
+		top: 22px;
+		z-index: 65536;
+	}
+
+	.logo{
+		width: 2.05rem;
+	}
+
+    #grid6{
+		display: none;
+	}
+
+    .container{
+        width: 100%;
+        margin: auto;
+		margin-top: 120px;
+    }
+
+    .container img{
+        display: block;
+		width: 100%;
+		margin-top: 20px;
+	}
+	
+	.video-wrapper{
+		position: relative;
+		width: 100%;
+		height: 0;
+		overflow: hidden;
+		padding-bottom: 56.26%;
+		margin-top: 20px;
+	}
+
+	.video-wrapper .wrap{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.space-1{
+		height: 10px;
+	}
+
+	.description-container{
+		margin-bottom: 40px;
+	}
+
+	.description-container2{
+		margin-bottom: 20px;
+	}
+
+	.description-line{
+		width: 20px;
+		height: 2px;
+		background-color: #73BBA0;
+		border-radius: 200px;
+		margin-bottom: 10px;
+	}
+
+	.description-line2{
+		height: 3px;
+		width: 30px;
+		border-radius: 200px;
+		background-color: #73BBA0;
+		margin-bottom: 10px;
+		margin-top: 70px;
+	}
+
+	.left-line{
+		display: none;
+	}
+
+	.work-title{
+		font-size: 0.78rem;
+		font-weight: 500;
+		margin-bottom: 6px;
+	}
+
+	.work-detail{
+		margin-top: 7px;
+		font-size: 0.6rem;
+		font-weight: 400;
+		line-height: 1.7;
+	}
+
+	.right-description{
+		margin-top: 10px;
+	}
+
+	.right-line{
+		width: 40px;
+		height: 6px;
+		background-color: #73BBA0;
+		border-radius: 200px;
+		margin-top: 15px;
+		margin-bottom: 10px;
+		display: none;
+	}
+
+	.work-description{
+		font-weight: 400;
+		font-size: 0.78rem;
+		line-height: 1.85;
+	}
+
+	.work-description a{
+		text-decoration: none;
+		color: #73BBA0;
+	}
+
+	.description-bottom-container{
+		margin-top: 30px;
+		margin-left: 4%;
+		border-left: 2px solid #73BBA0;
+	}
+
+	.bottom-name{
+		font-size: 0.8rem;
+		font-weight: 500;
+		margin-bottom: 5px;
+		padding-left: 10px;
+	}
+
+	.address2{
+		font-weight: 400;
+		font-size: 0.78rem;
+		padding-left: 11px;
+	}
+
+	.address2 a{
+		text-decoration: none;
+		color: black;
+	}
+
+	.email{
+		float: left;
+	}
+
+	.email img{
+		width: 17px;
+		margin-top: 4px;
+		margin-right: 5px;
+	}
+
+	.instagram2{
+		float: left;
+	}
+
+	.instagram2 img{
+		width: 16px;
+		margin-top: 2px;
+		margin-right: 5px;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.space-address{
+		height: 4px;
+	}
+
+
+
+	.footer {
+		margin-top: 80px
+	}
+
+	.sponser {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 6px;
+	}
+
+	.sponser-logo{
+		float: left;
+		margin-right: 6px;
+		margin-left: 6px;
+	}
+
+	.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.aviemuah{
+		width: 78px;
+		padding-top: 5px;
+	}
+
+	.hangaram{
+		width: 52px;
+	}
+
+	.bedameun{
+		width: 85px;
+		padding-top: 9.25px;
+		padding-left: 3px;
+	}
+
+	.copyright {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 3px;
+		font-size: 0.6rem;
+		font-weight: 500;
+		text-align: center;
+		color: #aeaeae;
+	}
+
+	.designer {
+		width: max-content;
+		margin: auto;
+		margin-bottom: 30px;
+		font-size: 0.5rem;
+		font-weight: 400;
+		text-align: center;
+		color: #aeaeae;
+	}
+}
